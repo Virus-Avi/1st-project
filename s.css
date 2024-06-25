@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Open+Sans:wght@300&display=swap');
+
+
+*{
+
+padding: 0;
+
+ margin: 0;
+
+box-sizing: border-box;
+
+}
+
+body{
+
+ background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEo6-IhRMzxwBszKpUBV8PE84YoSFbcAEC9TvjKVMRjolZ3VeG_zsPGik&s=10) no-repeat;
+
+background-size: cover;
+
+background-position: center;
+
+height: 100svh;
+
+ width: 100vw;
+
+ transition: 0.5s;
+
+
+}
+
+.card{
+
+position: absolute;
+
+left: 50%;
+
+top: 50%;
+
+transform: translate(-50%, -50%);
+
+min-width: 70vw;
+
+max-width: 80vw;
+
+backdrop-filter: blur(10px);
+
+padding: 30px;
+
+border-radius: 10px;
+
+text-align: center;
+
+color:white;
+
+transition: 0.5s;
+
+}
+
+#inp{
+
+
+
+min-width: 80%;
+
+max-width: 20%;
+
+border: none;
+
+outline: none;
+
+font-size: 16.5px;
+
+background: none;
+
+padding: 15px 0;
+
+}
+
+.search{
+
+width: 100%;
+
+margin: 0 auto;
+
+display: flex;
+
+justify-content: space-evenly;
+
+align-items: center;
+
+background: white;
+
+border-radius: 20px;
+
+}
+
+
+
+
+.details{
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+margin: 20px 0 0 0;
+
+}
+
+.col{
+
+display: flex;
+
+align-items: center;
+
+text-align: center;
+
+}
+
+.col p{
+
+ margin: 0 10px;
+
+}
+
+.weather{
+
+display: none;
+
+}
+
+textarea{
+
+font-size: 16px;
+
+}
